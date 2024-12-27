@@ -90,9 +90,9 @@
   background-color: #bccbde;
   grid-area: 3 / 2 / 4 / 3;
 
-  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-  row-gap: 5px;
-  column-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 8px;
+  row-gap: 8px;
 }
 
 .article p {
@@ -106,6 +106,8 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+
+  height: 150px;
 }
 
 .card p {
