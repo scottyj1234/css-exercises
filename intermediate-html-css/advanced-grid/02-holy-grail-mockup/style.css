@@ -7,10 +7,12 @@
   display: grid;
   text-align: center;
   grid-template-columns: max(100px, 1fr) 9fr;
-  grid-template-rows: 100px 50px 1fr 80px;
+  grid-template-rows: 100px 50px 1fr 50px;
 
-  row-gap: 5px;
-  column-gap: 5px;
+  row-gap: 8px;
+  column-gap: 8px;
+
+  min-height: 100vh;
 }
 
 .container div {
@@ -91,8 +93,8 @@
   grid-area: 3 / 2 / 4 / 3;
 
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  column-gap: 8px;
-  row-gap: 8px;
+  column-gap: 15px;
+  row-gap: 15px;
 }
 
 .article p {
