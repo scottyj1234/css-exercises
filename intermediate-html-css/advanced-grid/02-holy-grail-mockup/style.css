@@ -86,8 +86,13 @@
 }
 
 .article {
+  display: grid;
   background-color: #bccbde;
   grid-area: 3 / 2 / 4 / 3;
+
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  row-gap: 5px;
+  column-gap: 5px;
 }
 
 .article p {
